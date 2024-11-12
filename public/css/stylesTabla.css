@@ -1,0 +1,42 @@
+body {
+  background-color: #f8f9fa; /* Color de fondo suave */
+  font-family: Arial, sans-serif; /* Fuente más moderna */
+}
+
+.container {
+  margin-top: 30px; /* Espacio superior para el contenedor */
+}
+
+h1 {
+  margin-bottom: 20px; /* Espaciado inferior */
+  text-align: center; /* Centrar el título */
+}
+
+.table {
+  margin-top: 20px; /* Espaciado superior */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow: hidden; /* Ocultar bordes redondeados */
+}
+
+.table th,
+.table td {
+  text-align: center; /* Centrar texto en celdas */
+  padding: 15px; /* Espaciado interno en celdas */
+}
+
+.table thead {
+  background-color: #007bff; /* Color de fondo para el encabezado */
+  color: white; /* Color del texto del encabezado */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+.table tbody tr:hover {
+  background-color: #e0e0e0; /* Color al pasar el mouse sobre la fila */
+}
+
+.btn-danger {
+  margin-top: 20px; /* Espacio superior para el botón de cerrar sesión */
+}
